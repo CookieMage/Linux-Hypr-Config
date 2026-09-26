@@ -1,0 +1,12 @@
+2026-09-26 15:41:21.638 [info] Extension host with pid 26508 started
+2026-09-26 15:41:21.638 [info] Skipping acquiring lock for /home/sebbie/.config/Code - OSS/User/workspaceStorage/0b18712b55b199941b9aa8886920cc98.
+2026-09-26 15:41:21.690 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-26 15:41:21.703 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-26 15:41:21.797 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-26 15:41:21.808 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-26 15:41:21.832 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-26 15:41:21.873 [info] Eager extensions activated
+2026-09-26 15:41:21.885 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-26 15:41:21.886 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-26 15:41:59.608 [info] Extension host terminating: received terminate message from renderer
+2026-09-26 15:41:59.610 [info] Extension host with pid 26508 exiting with code 0

@@ -1,0 +1,6 @@
+2026/09/22-18:26:45.647 4702 Creating DB /home/sebbie/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2026/09/22-18:26:45.649 4702 Reusing MANIFEST /home/sebbie/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/22-18:27:17.650 46f0 Level-0 table #5: started
+2026/09/22-18:27:17.651 46f0 Level-0 table #5: 1419 bytes OK
+2026/09/22-18:27:17.653 46f0 Delete type=0 #3
+2026/09/22-18:27:17.653 46f0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

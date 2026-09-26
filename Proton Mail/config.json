@@ -1,0 +1,47 @@
+{
+	"settings": {
+		"spellChecker": true,
+		"overrideError": false,
+		"releaseCategory": "Stable",
+		"rolloutProportion": 0.9237349406795136,
+		"appCacheEnabled": true,
+		"mailtoBannerDismissedPermanently": false
+	},
+	"appID": {
+		"id": "ab022a2f-6ca9-426e-b748-d45005ee9e43",
+		"hash": "d14bdf75b0c78b63820c522b458a4a703a23d7202207cd6c41b1565aa7df33f2",
+		"distribution": 0.8175639784174377
+	},
+	"defaultProtocols": {
+		"mailto": {
+			"shouldBeDefault": true,
+			"wasDefaultInPast": false,
+			"lastReport": {
+				"wasDefault": false,
+				"timestamp": 0
+			},
+			"canUpdateDefault": true
+		}
+	},
+	"windowBounds": {
+		"x": 0,
+		"y": 0,
+		"width": 1886,
+		"height": 1046,
+		"maximized": true,
+		"zoom": 1
+	},
+	"telemetry": {
+		"dailyStats": {
+			"releaseCategory": "Stable",
+			"isDefaultMailto": "false",
+			"isDefaultMailtoChanged": "no_change",
+			"mailtoClicks": 0,
+			"switchViewMailToCalendar": 0,
+			"switchViewCalendarToMail": 0,
+			"userLogin": 0,
+			"userLogout": 0,
+			"lastReport": 1787326768
+		}
+	}
+}

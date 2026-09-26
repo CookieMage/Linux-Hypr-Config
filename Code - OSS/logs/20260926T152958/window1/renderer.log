@@ -1,0 +1,10 @@
+2026-09-26 15:29:59.038 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-26 15:29:59.061 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-26 15:29:59.186 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-26 15:29:59.243 [info] Started local extension host with pid 20273.
+2026-09-26 15:29:59.311 [info] [AgentHost:renderer] Protocol connection established; clientId=cbddfa00-755d-431f-ab48-c21910cf0105
+2026-09-26 15:29:59.647 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-26 15:29:59.673 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-26 15:29:59.684 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-26 15:30:01.917 [info] [perf] Render performance baseline is 12ms
+2026-09-26 15:30:04.648 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

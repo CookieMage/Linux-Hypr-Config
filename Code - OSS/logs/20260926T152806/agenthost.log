@@ -1,0 +1,22 @@
+2026-09-26 15:28:07.461 [info] Agent Host process started successfully
+2026-09-26 15:28:07.461 [info] AgentService initialized
+2026-09-26 15:28:07.461 [info] Registering agent provider: copilotcli
+2026-09-26 15:28:07.461 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-26 15:28:07.468 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-98ac26e80330/kDAJO223pKUqqwzd0xR0jQ.sock
+2026-09-26 15:28:07.472 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-26 15:28:07.487 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-26 15:28:07.525 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-26 15:28:07.539 [info] [ProtocolServer] Initialize: clientId=7acf74af-ad5f-40c3-a16b-f1548728f18d, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-26 15:28:07.954 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-26 15:28:07.954 [info] [Copilot] Listing discoverable chats...
+2026-09-26 15:28:07.954 [info] [Copilot] Starting CopilotClient...
+2026-09-26 15:28:07.954 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-09-26 15:28:07.957 [info] [Copilot] Resolved CLI path: /usr/lib/code/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-26 15:28:08.240 [info] [Copilot] CopilotClient started successfully
+2026-09-26 15:28:08.241 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-26 15:28:08.241 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-26 15:28:26.965 [info] [ProtocolServer] Client disconnected: 7acf74af-ad5f-40c3-a16b-f1548728f18d, subscriptions=1
+2026-09-26 15:28:26.966 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-26 15:28:26.966 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-26 15:28:26.967 [info] AgentService: shutting down all providers...
+2026-09-26 15:28:26.967 [info] [Copilot] Shutting down...

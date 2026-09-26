@@ -1,0 +1,15 @@
+2026-09-26 15:34:55.144 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-26 15:34:55.166 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-26 15:34:55.265 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-26 15:34:55.411 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-26 15:34:55.465 [info] Started local extension host with pid 25858.
+2026-09-26 15:34:55.477 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MGI3N2RmYzEtMDg4MC00NjFlLTlkZjEtMGI4NWI2OWMwMTk5" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-26 15:34:55.495 [info] [AgentHost:renderer] Protocol connection established; clientId=6a2c71b6-f065-40a4-9b6e-40417145f968
+2026-09-26 15:34:55.977 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-26 15:34:56.053 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-26 15:34:56.053 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-26 15:34:56.071 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MGI3N2RmYzEtMDg4MC00NjFlLTlkZjEtMGI4NWI2OWMwMTk5" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-26 15:34:56.086 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MGI3N2RmYzEtMDg4MC00NjFlLTlkZjEtMGI4NWI2OWMwMTk5" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-26 15:34:56.191 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MGI3N2RmYzEtMDg4MC00NjFlLTlkZjEtMGI4NWI2OWMwMTk5" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-26 15:34:58.144 [info] [perf] Render performance baseline is 13ms
+2026-09-26 15:35:00.978 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

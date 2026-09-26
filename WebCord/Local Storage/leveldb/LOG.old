@@ -1,0 +1,23 @@
+2026/09/22-17:53:00.187 61d0 Reusing MANIFEST /home/sebbie/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
+2026/09/22-17:53:00.190 61d0 Recovering log #72
+2026/09/22-17:53:00.190 61d0 Level-0 table #76: started
+2026/09/22-17:53:00.191 61d0 Level-0 table #76: 34268 bytes OK
+2026/09/22-17:53:00.193 61d0 Delete type=0 #72
+2026/09/22-17:54:00.194 61d0 Level-0 table #79: started
+2026/09/22-17:54:00.196 61d0 Level-0 table #79: 36307 bytes OK
+2026/09/22-17:54:00.198 61d0 Delete type=0 #77
+2026/09/22-19:43:03.127 61d0 Level-0 table #81: started
+2026/09/22-19:43:03.129 61d0 Level-0 table #81: 37134 bytes OK
+2026/09/22-19:43:03.131 61d0 Delete type=0 #78
+2026/09/22-22:30:39.620 61d0 Level-0 table #83: started
+2026/09/22-22:30:39.627 61d0 Level-0 table #83: 40965 bytes OK
+2026/09/22-22:30:39.629 61d0 Delete type=0 #80
+2026/09/22-22:30:39.629 61d0 Compacting 4@0 + 1@1 files
+2026/09/22-22:30:39.632 61d0 Generated table #84@0: 36 keys, 49522 bytes
+2026/09/22-22:30:39.632 61d0 Compacted 4@0 + 1@1 files => 49522 bytes
+2026/09/22-22:30:39.633 61d0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/22-22:30:39.633 61d0 Delete type=2 #74
+2026/09/22-22:30:39.633 61d0 Delete type=2 #76
+2026/09/22-22:30:39.633 61d0 Delete type=2 #79
+2026/09/22-22:30:39.633 61d0 Delete type=2 #81
+2026/09/22-22:30:39.633 61d0 Delete type=2 #83

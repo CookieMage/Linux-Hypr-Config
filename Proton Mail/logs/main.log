@@ -1,0 +1,398 @@
+[2026-08-21 17:38:27.953] [info]  (settings)           Settings not found, using default settings
+[2026-08-21 17:38:27.957] [info]  (main)               AppID generated {
+  id: 'ab022a2f-6ca9-426e-b748-d45005ee9e43',
+  hash: 'd14bdf75b0c78b63820c522b458a4a703a23d7202207cd6c41b1565aa7df33f2',
+  distribution: 0.8175639784174377
+}
+[2026-08-21 17:38:27.971] [info]  (main)               ==== SESSION START ====
+[2026-08-21 17:38:27.972] [info]  (main)               App start is mac: false is windows: false islinux: true issnap: false snaprevision:  version: 1.13.4 osversion: 7.1.8-arch1-3 params [ '/usr/lib/electron40/electron', '/usr/share/proton-mail/app.asar' ]
+[2026-08-21 17:38:27.973] [info]  (main)               Build info: {"appVersion":"1.13.4"}
+[2026-08-21 17:38:27.973] [info]  (main)               Desktop features: inapppayments:true, themeselection:true, earlyaccess:true, multiaccount:true, latestversioncheck:true, installsource:true, mailtotelemetry:false, mailtoupdate:true, esuserchoice:true, fulltheme:true, storeversion:true, heartbeatmetrics:true, statstelemetry:true, restrictedthemeselection:true, clearappmodal:true, snapsupport:true, bugreportlogattachments:true, printdialog:true, userlogoutv2:true, mailtobannerpermanentdismiss:true, oauthpopupv2:true
+[2026-08-21 17:38:27.979] [info]  (main)               Enable check default mail to app
+[2026-08-21 17:38:27.980] [info]  (protocol)           Requested to check if app default mailto. Current status: true
+[2026-08-21 17:38:27.981] [debug] (protocol)           Storing default protocols: {
+  mailto: {
+    shouldBeDefault: true,
+    wasDefaultInPast: false,
+    lastReport: { wasDefault: false, timestamp: 0 },
+    canUpdateDefault: true
+  }
+}
+[2026-08-21 17:38:28.071] [info]  (main)               displays: [{"id":72,"label":"BNQ BenQ GL2450H HAF03623019 (DP-2)","primary":true,"bounds":{"x":0,"y":0,"width":1920,"height":1080},"scaleFactor":1,"rotation":0,"internal":false},{"id":73,"label":"BNQ BenQ GL2450H E6G04255019 (HDMI-A-1)","primary":false,"bounds":{"x":-1920,"y":0,"width":1920,"height":1080},"scaleFactor":1,"rotation":0,"internal":false}]
+[2026-08-21 17:38:28.072] [info]  (main)               System info: {"cpuCount":24,"cpuSpeed":"4.6GHz","totalRAM":"30.5GB","mainProcess":{"avgCPUUsage":"137%","memoryUsage":"242MB","uptime":"0 seconds"}}
+[2026-08-21 17:38:28.073] [info]  (main)               net.online: true
+[2026-08-21 17:38:28.073] [info]  (main)               Login item settings: {"executableWillLaunchAtLogin":false,"openAtLogin":false,"openAsHidden":false,"restoreState":false,"wasOpenedAtLogin":false,"wasOpenedAsHidden":false}
+[2026-08-21 17:38:28.087] [debug] (protocol)           Checking default mailto
+[2026-08-21 17:38:28.115] [info]  (protocol)           App default mailto client status {
+  isDefault: false,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: false,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2026-08-21 17:38:28.116] [info]  (update)             Initialization of update checks.
+[2026-08-21 17:38:28.116] [info]  (update)             Checking for new valid version.
+[2026-08-21 17:38:28.152] [info]  (main)               Creating views
+[2026-08-21 17:38:28.156] [info]  (main)               Skipping heartbeat, listener is not ready
+[2026-08-21 17:38:28.159] [info]  (flag-manager)       Feature flags loaded from cache {
+  lastUpdated: '1970-01-01T00:00:00.000Z',
+  flags: {
+    InboxDesktopAppVersionExtensionDisabled: false,
+    InboxDesktopElectronAndOsVersionUpdateConstraintsDisabled: false,
+    'inda-test-flag-1': false,
+    'inda-test-flag-2': false
+  }
+}
+[2026-08-21 17:38:28.159] [debug] (flag-manager)       Checking flags
+[2026-08-21 17:38:28.159] [info]  (flag-manager)       Feature flag periodic check started { intervalMS: 60000 }
+[2026-08-21 17:38:28.160] [info]  (main)               GPU info: {"auxAttributes":{"amdSwitchable":false,"canSupportThreadedTextureMailbox":false,"glImplementationParts":"(gl=none,angle=none)","glResetNotificationStrategy":0,"hardwareSupportsVulkan":false,"inProcessGpu":true,"initializationTime":0,"isAsan":false,"isClangCoverage":false,"jpegDecodeAcceleratorSupported":false,"optimus":false,"passthroughCmdDecoder":false,"sandboxed":false,"skiaBackendType":"None","subpixelFontRendering":true,"targetCpuBits":64,"visibilityCallbackCallCount":0},"gpuDevice":[{"active":true,"deviceId":5710,"gpuPreference":0,"vendorId":4098},{"active":false,"deviceId":30032,"gpuPreference":0,"vendorId":4098}]}
+[2026-08-21 17:38:28.173] [info]  (mail)               loadURL from  to https://mail.proton.me/
+[2026-08-21 17:38:28.178] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:38:28.178] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:38:28.197] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:38:28.198] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:38:28.236] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:38:28.237] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:38:28.397] [verbose] (net/mail)           GET https://mail.proton.me/ 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:28.398] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:38:28.399] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:38:28.410] [info]  (mail)               did-navigate https://mail.proton.me/
+[2026-08-21 17:38:28.410] [debug] (mail)               did-navigate set zoom factor to 1
+[2026-08-21 17:38:28.659] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.13.4","ReleaseDate":"2026-07-29","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.13.4/ProtonMail-desktop-beta.deb","Sha512CheckSum":"3497f9efdaa76ea3bcbde7e30a997a272b3dbd20145131be6113195ececfab0bc9c1466dd09e42d4cff7e1b0b9dddc1d91bed03c90ce6e33f37d6eccc88f4f40"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.13.4/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"2db3d08fc0d1a0d1111c156900534150e414d4fb273d8dd82aa580b64d6f5ff97c620e53b94c70e270a230020132f40fc2d5f2b01786274c37c0a123f3b2f169"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"],"MinimumAppVersion":"1.12.0"}
+[2026-08-21 17:38:28.660] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.13.3","ReleaseDate":"2026-06-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.13.3/ProtonMail-desktop-beta.deb","Sha512CheckSum":"8700c4f3f765cc6e473fc2e25d65f36248ecc19510c6443fc9184372f6ca1a32d7d5764f3cddd6cd97a4355b22909ece084e568d67739273d181671250c46ce3"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.13.3/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"15166c4f92d97658e3037463bcc5473249fbd8fa83a0516dc049db6a40281d8e4cf0196b826ddbe4afa72e1254eae639eed331eb749be5b121c655b860d184d9"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"],"MinimumAppVersion":"1.12.0"}
+[2026-08-21 17:38:28.660] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.12.1","ReleaseDate":"2026-01-29","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.12.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"e5d69709dbd9ce70eab63a8fe30698fcebe32d08db18dfccc4eb9443d4cc8067a422f4b680d9f74d5408c5f3fce95bf0ede2d4064f609415bf0b5479b55601b9"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.12.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"1e7d572859e3452e208f6ae3f6e5eac7d6bbb4cb014b36f6c7a7b0b0a7bd916d7c8562775d806536729f18762bf16600a3dc050b46ca1c0733addf6ac55a311c"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"],"MinimumAppVersion":"1.0.0"}
+[2026-08-21 17:38:28.661] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.11.0","ReleaseDate":"2025-11-28","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.11.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"0f9a8996d1b58ed3e9b2236d610a4a4aae912cec10a39c7e9cd59ee2d0addbba7da931b2691c764f23a44566204c86651e07e3cc1b1730e78dd788dc0cf2c306"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.11.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"8e02ad7e2a02d0bd49a112e93b404154ff16bddcfbac27979d9dfbcf0660a28481f2656ff93d031215dc2a5cdd6fb060abfad8f13cc00a41bb3db4d22ccf7fc8"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"],"MinimumAppVersion":"1.0.0"}
+[2026-08-21 17:38:28.661] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.10.1","ReleaseDate":"2025-11-07","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.10.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"405ad9659153fdd5c426b4601a1f20138e5f4eacdf58524a2cefc0612d89fefd37265457bdef6b7da7bb223d7c17124e100703857c985b792d2528a7916f18a1"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.10.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"863ea787f9e2a1acf50a7264d550c404fe86395f23323e50461f9db4e92103dce234a6902441b587ef1c59071387920afa1a1063fc691e7468420d3360856c52"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.662] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.9.1","ReleaseDate":"2025-09-24","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.9.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"8f78db0707e3f1f0cd8ad259891840f88027c56b347c7526e8283576a997cef543c8014569aaf774f444e0d714bcd6e54a5c48171553384368c38cec4cf94e5b"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.9.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"3733868fe4d9b704bfe232589c0e7959cf1d9b2ed2a715785a3f858201bb896aa7d20ac2823f1060b85f2eaed833778b3b1458f872bebd48e85f8b2375a90af4"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.662] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.9.0","ReleaseDate":"2025-08-05","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.9.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"b43abcf864e6296d112231cf262c8c4cac82f4b1c54cb5ba06ebb63bf032a150fd5d97d4343b9037a9694e86cb2d26d8ed1d7741668a0a3e7e123fa9cc847c75"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.9.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"760d3b6aafbd314d1256e8bed9da345fe4aab89ba6cf996b9fa547d607031d26dd7d389ed30af922ce9a3951236f19ec35a837df25ee43bd54f6e1670010b5c3"}],"ReleaseNotes":[],"RolloutProportion":0.1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.663] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.8.1","ReleaseDate":"2025-07-17","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"31635456313c2fb4d41172eeaffe779484cb690fcd70cab56ded52064017bef227ea25ed98d9fc7f602200b97b04532b344c35081dfb3a847720f510101b8939"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"674f79bf272debd27e8aa7d6c7dcc4891d8bbdeb911462b9f63939e0571e681341d017561ed4f22b02d1c73c29bcda5c9c59293802e858cbea7423f2038f580a"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.663] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.8.0","ReleaseDate":"2025-03-06","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"3267112cc06dc001ac59531abd84bd89a0c44ff0314ad53db2f5eb32de8f2f482ab02241a20682c08ace6cb65c13a74bb12cb77777889e240c3ed6bc64055112"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"dc869195ccdc23aec3420e042a926151da3dd3c57e3b357665335d3c8c30f14617b69c0020ea040111d04c77e59b2cd4961256882955de44403c4e06a2b0b894"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.664] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.7.1","ReleaseDate":"2025-02-27","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"42051de5e8045c190752f248fa84263f594b0e9a4e553f8c1ac989a513d2ad521c46632de424f0bbebce1ecd9bbb7c136c3da40bd8feae1819957e5c463616fb"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"49f26a2964af98287e38c69ae43ebd5e832b34098d853cc13f8f68c372f755a3210141d3230a8b4a6406447898a5a17f3c832f37bdd9ad3f9ef4171862b08bfe"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.664] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.6.1","ReleaseDate":"2024-12-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"fde65a33be182907cc104a5875f2ed2a2fee9621f35d36208ff8e13f7a0118d4a3cdf430308880613096e4e21461a559cd9433f566360eb0f565e14cacf18bc5"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"8ed5b419dd4f6c3a3a275bffb77a8847cd3c049bdcfc18878b982223fd484ddfa242972cc6a73fb72bbddb08874d8a15d0c16bd63a9e121c724eedf052288fbb"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.665] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.6.0","ReleaseDate":"2024-12-06","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"7a7b2e93b29c1c9f3ddc44bf7b078b6260c79d981a557581f11bb2677a8317264dcb2e664cb7e4a4d9259872cf6bae5d60b94f9ae6ce3655b9be40b03f78155e"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"16a37459e008c5cdb8a325fd76b353fc85123a4880ab06e4f44982b48dbdf753e392e06b282cf114f24a840ec3d54e4b86290a27600b311f8e12c92c7bd1226e"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.665] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.5.1","ReleaseDate":"2024-11-27","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"c0d60eb309170aedcc772e10ca4de73cc6fb057eaf510cc5cba996260bcdd57fd7db8f503fc2b77b40c93a411cc19848727554381a9520470a0d5119c267d6da"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"546d64484e5b06a551da88540c4ddf73a9b19f8fe88dc72ddc779e23b6094ca571593d81ebcdfc5228e3f426832f870301f48af2db6ee774bc681441a27ea651"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.665] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.4.0","ReleaseDate":"2024-11-20","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"4e1777fd84c70e63bfb5330bc5d13bfe56d07d0544ec426d8a6d037b80568b41ec7c7055f43634e09d3bf9c3212fc7ccd730703e51c065643c2c4ceb1ad6b582"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"847f564a1c292957175b4b9f114438e2f9edf2ee9f9c7a22121375797926c9372f5b1e4e13ff01b202fd4d09f1f7c25512da2b5c2f6a4a6ac3a8777ac83f78a8"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.666] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.3.2","ReleaseDate":"2024-11-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.deb","Sha512CheckSum":"d978d748f4b3b3e08fb6e962c110dd66868fddfc657c96018c1c808b7d00c4aa01430d7266ee7a966b8fe71322f2914bff179e9258b477a5d56cc5be01d738ad"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"10cf5ea806b8398312dc2a0a6eb218c5262d4c2c5555503feb094ff2d838270e01eb5862729a709fb86cfcc33bff17447119dd0c534cf697aa179fb8e4d05ac1"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.666] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.2.4","ReleaseDate":"2024-10-02","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.deb","Sha512CheckSum":"a439906d06d6b46505bae017d3152ae2341e3c0ef3588037323484b29238f6be282af4c0da1779142c10b1a210bbd0480e35e15b0b754e9b7868bba6d00e6d0a"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"1e63ea89ecb3ddcf535eb0f25c0e53bb5d9aaf5d38535785a97143091544f3aac2a42d4f7556516d7c03457edcfe26556b4f65a98355032799d43a314bc80628"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.667] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.1.2","ReleaseDate":"2024-09-17","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.deb","Sha512CheckSum":"ce5568970c64da64a4bfe8cd88c2c42dc2edf7d1d502e0c0150eb9cd64ebad6faf3b5269ed942a7a64c398006fda738b55656e9a69aa7a6b15233d9b497a11d2"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"36e0484ecf6f10a33f21d4333c6472d18ede15f3d5d5fab8afc4ce9d84d48226a930056c1fee1ce069523c4a6b1c9f2496bc1fa1d2538e05a8577a098e6185e6"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.667] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.1.0","ReleaseDate":"2024-09-03","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"efa5fca38fc76cbd13ae2b153c1eff9d233b62be5b4ccec5647cff57c055a1975176219255eebe3f0e8cc1df3933cbd807aa41c99e3ba24e35ce24d6145d2953"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"c7871b1a1421ccb2a5ce808196f9ed996af9a408066b8d8d79f3852f29e4c0a0063ce89a86d5b9683fea38392bb94eed1ddac73ce4b2bbd6d7f799b1894e82b4"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.668] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.0.6","ReleaseDate":"2024-08-01","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb","Sha512CheckSum":"fb51c0cd2124188ec40ba38c863933905a26a7457e8738048865ed4a43feb6afb30df8f20924eccfaca9e69e17f0b63960fc2e986edaaf714906d56534b8b462"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"ac294dabfd3150c26acf46d9988942778076191d4b1b100798de06d6fbaececa87083d72c6e717259969250a711ef7559e20cb6d862b890244cc34d917b86e6e"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:28.668] [info]  (update)             Skipping update: no newer version available. local: {"Version":"1.13.4","RolloutProportion":0.9237349406795136,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.0.5","ReleaseDate":"2024-07-09","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb","Sha512CheckSum":"108e434004b323d63f3240f86f8c6e13d0e42d09a59846a8d04b44914927985e93e68ca11ca110581186fc663b28e5eec6d3b49751c0eca9e04f0dea3cf753b3"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"00a2742aa487b3b08ab15502895b967272d6096ccc442087cb8d4be11b6842fac5856746ad2dfe45f99f229fbfa3d59b2b8c105e61ed86f8d75e80d160527212"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-08-21 17:38:29.630] [debug] (mail)               did-finish-load https://mail.proton.me/
+[2026-08-21 17:38:29.631] [verbose] (mail)               updating view bounds {"x":0,"y":0,"width":1200,"height":900}
+[2026-08-21 17:38:29.632] [info]  (mail)               showView showing view for 
+[2026-08-21 17:38:29.641] [debug] (main)               window: focus
+[2026-08-21 17:38:29.642] [verbose] (mail)               updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:38:29.642] [verbose] (calendar)           updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:38:29.643] [verbose] (account)            updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:38:29.644] [error] (net/mail)           GET https://mail.proton.me/assets/static/InterVariable.c504db5c06caaf7cdfba.woff2 net::ERR_CACHE_MISS undefined
+[2026-08-21 17:38:29.666] [info]  (preload)            Sending message: setTheme
+[2026-08-21 17:38:29.670] [info]  (preload)            Sending message: storeAppVersion
+[2026-08-21 17:38:29.671] [info]  (utils)              Application loaded: proton-mail@5.0.128.11
+[2026-08-21 17:38:29.671] [debug] (utils)              Current versions are: 1.13.4 (M 5.0.128.11)
+[2026-08-21 17:38:29.677] [info]  (mail)               will-navigate https://account.proton.me/authorize?app=proton-mail&state=0ooen2O3zwd_Z5wRcRibqmACTaw_EancHxNNLuesdJ0&v=2&reason=session-expired&pv=3
+[2026-08-21 17:38:30.036] [verbose] (net/mail)           GET https://account.proton.me/storage.html 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:30.042] [verbose] (net/mail)           GET https://account.proton.me/authorize?app=proton-mail&state=0ooen2O3zwd_Z5wRcRibqmACTaw_EancHxNNLuesdJ0&v=2&reason=session-expired&pv=3 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:30.046] [info]  (mail)               did-navigate https://account.proton.me/authorize?app=proton-mail&state=0ooen2O3zwd_Z5wRcRibqmACTaw_EancHxNNLuesdJ0&v=2&reason=session-expired&pv=3
+[2026-08-21 17:38:30.046] [debug] (mail)               did-navigate set zoom factor to 1
+[2026-08-21 17:38:30.052] [error] (net)                GET https://account.proton.me/assets/static/storage.3c2f8a6f.js net::ERR_ABORTED undefined
+[2026-08-21 17:38:30.053] [error] (net/mail)           GET https://mail.proton.me/assets/static/MainContainer.ed3c4be6.chunk.js net::ERR_ABORTED undefined
+[2026-08-21 17:38:30.054] [error] (net)                GET https://account.proton.me/assets/static/runtime.6c37f1e1.js net::ERR_ABORTED undefined
+[2026-08-21 17:38:30.640] [info]  (main)               update window bounds {"x":0,"y":0,"width":1886,"height":1046,"maximized":true,"zoom":1}
+[2026-08-21 17:38:30.694] [info]  (preload)            Sending message: storeAppVersion
+[2026-08-21 17:38:30.695] [info]  (utils)              Application loaded: proton-account@5.0.409.0
+[2026-08-21 17:38:30.695] [debug] (utils)              Current versions are: 1.13.4 (M 5.0.128.11 / A 5.0.409.0)
+[2026-08-21 17:38:30.710] [error] (net/mail)           GET https://account.proton.me/assets/static/InterVariable.c504db5c06caaf7cdfba.woff2 net::ERR_CACHE_MISS undefined
+[2026-08-21 17:38:30.714] [info]  (preload)            Sending message: setTheme
+[2026-08-21 17:38:30.717] [info]  (mail)               did-navigate-in-page https://account.proton.me/mail
+[2026-08-21 17:38:31.182] [info]  (preload)            Sending message: metricsListenerChanged
+[2026-08-21 17:38:31.183] [debug] (main)               Metrics listener ready
+[2026-08-21 17:38:31.193] [verbose] (net/mail)           GET https://account.proton.me/assets/host.png 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:31.195] [verbose] (net/mail)           GET https://account.proton.me/%61%73%73%65%74%73/%68%6f%73%74.%70%6e%67 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:31.417] [verbose] (net/mail)           GET https://account-api.proton.me/challenge/v4/html?Type=0&Name=unauth&Lang=en-US&Dir=ltr 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:31.447] [verbose] (net/mail)           GET https://account-api.proton.me/challenge/v4/html?Type=0&Name=login&Lang=en-US&Dir=ltr 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:31.512] [verbose] (net/mail)           POST https://account.proton.me/api/auth/v4/sessions 200 HTTP/1.1 200 undefined
+[2026-08-21 17:38:31.619] [info]  (uid)                UID changed; viewname: mail, uid: ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:31.703] [verbose] (net/mail)           POST https://account.proton.me/api/core/v4/auth/cookies 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:31.739] [verbose] (net/mail)           GET https://account.proton.me/api/domains/available?Type=login 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:31.741] [verbose] (net/mail)           POST https://account.proton.me/api/auth/v4/sessions/payload 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:31.758] [verbose] (net/mail)           POST https://account.proton.me/api/data/v1/telemetry 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:31.836] [verbose] (net/mail)           POST https://account.proton.me/api/data/v1/telemetry 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:31.837] [verbose] (net/mail)           GET https://account.proton.me/api/feature/v2/frontend?sessionId=285201153&appName=-&environment=default 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:38.117] [debug] (main)               request-load-time average: 221ms deviation: 184ms max: 643ms count: 41
+[2026-08-21 17:38:41.211] [verbose] (net/mail)           POST https://account.proton.me/api/feature/v2/frontend/client/metrics 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:38:58.075] [info]  (main)               network status changed: online
+[2026-08-21 17:39:22.631] [verbose] (net/mail)           POST https://account.proton.me/api/core/v4/auth/info 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:23.149] [verbose] (net/mail)           POST https://account.proton.me/api/core/v4/auth 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:23.259] [verbose] (net/mail)           GET https://account.proton.me/api/core/v4/keys/salts 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:23.287] [verbose] (net/mail)           GET https://account.proton.me/api/core/v4/users 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:23.963] [verbose] (net/mail)           GET https://account.proton.me/api/core/v4/addresses?Page=0&PageSize=50 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:24.052] [verbose] (net/mail)           GET https://account.proton.me/api/core/v4/settings 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:24.280] [verbose] (net/mail)           PUT https://account.proton.me/api/auth/v4/sessions/local/key 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:24.713] [info]  (preload)            Sending message: userLogin
+[2026-08-21 17:39:24.714] [info]  (calendar)           reset to blank
+[2026-08-21 17:39:24.716] [info]  (account)            reset to blank
+[2026-08-21 17:39:24.721] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:39:24.722] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:39:24.724] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:39:24.726] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:39:24.730] [verbose] (net/calendar)       GET file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Calendar%E2%80%A6&color=%23C7C4C1&backgroundColor=white 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:24.732] [verbose] (net/account)        GET file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:24.734] [info]  (calendar)           did-navigate file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Calendar%E2%80%A6&color=%23C7C4C1&backgroundColor=white
+[2026-08-21 17:39:24.736] [info]  (account)            did-navigate file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white
+[2026-08-21 17:39:24.746] [verbose] (net/calendar)       GET file:///usr/share/proton-mail/proton-spinner.svg 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:24.748] [verbose] (net/account)        GET file:///usr/share/proton-mail/proton-spinner.svg 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:24.751] [verbose] (view)               updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:39:24.752] [verbose] (view)               updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:39:24.753] [warn]  (renderer/calendar)  [sandbox_bundle:2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security Policy set or a policy with "unsafe-eval" enabled. This exposes users of this app to unnecessary security risks. For more information and help, consult https://electronjs.org/__REST_OF_URL__ This warning will not show up once the app is packaged.
+[2026-08-21 17:39:24.754] [warn]  (renderer/account)   [sandbox_bundle:2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security Policy set or a policy with "unsafe-eval" enabled. This exposes users of this app to unnecessary security risks. For more information and help, consult https://electronjs.org/__REST_OF_URL__ This warning will not show up once the app is packaged.
+[2026-08-21 17:39:24.788] [verbose] (net/mail)           POST https://account.proton.me/api/auth/v4/sessions/forks 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:24.790] [info]  (mail)               will-navigate https://mail.proton.me/login#selector=jvxzptwr7v4xy4wws3zchytsssazogqt&sk=pFH9Bhni-FnpPm1iqqSWpXKNzI1lJYBAwB8q5mRzlt0&v=2&state=0ooen2O3zwd_Z5wRcRibqmACTaw_EancHxNNLuesdJ0&p=1&tr=1&pv=3&pt=default&source=0
+[2026-08-21 17:39:24.840] [verbose] (net/mail)           GET https://mail.proton.me/login#selector=jvxzptwr7v4xy4wws3zchytsssazogqt&sk=pFH9Bhni-FnpPm1iqqSWpXKNzI1lJYBAwB8q5mRzlt0&v=2&state=0ooen2O3zwd_Z5wRcRibqmACTaw_EancHxNNLuesdJ0&p=1&tr=1&pv=3&pt=default&source=0 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:24.843] [info]  (mail)               did-navigate https://mail.proton.me/login#selector=jvxzptwr7v4xy4wws3zchytsssazogqt&sk=pFH9Bhni-FnpPm1iqqSWpXKNzI1lJYBAwB8q5mRzlt0&v=2&state=0ooen2O3zwd_Z5wRcRibqmACTaw_EancHxNNLuesdJ0&p=1&tr=1&pv=3&pt=default&source=0
+[2026-08-21 17:39:24.844] [debug] (mail)               did-navigate set zoom factor to 1
+[2026-08-21 17:39:24.849] [error] (net/mail)           POST https://account.proton.me/api/feature/v2/frontend/client/metrics net::ERR_ABORTED ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:24.902] [info]  (preload)            Sending message: setTheme
+[2026-08-21 17:39:24.904] [info]  (preload)            Sending message: storeAppVersion
+[2026-08-21 17:39:24.905] [info]  (utils)              Application loaded: proton-mail@5.0.128.11
+[2026-08-21 17:39:24.906] [debug] (utils)              Current versions are: 1.13.4 (M 5.0.128.11 / A 5.0.409.0)
+[2026-08-21 17:39:24.914] [verbose] (net)                POST https://account.proton.me/api/data/v1/telemetry 200 HTTP/1.1 200 undefined
+[2026-08-21 17:39:24.919] [verbose] (net)                POST https://account.proton.me/api/data/v1/telemetry 200 HTTP/1.1 200 undefined
+[2026-08-21 17:39:24.932] [verbose] (net/mail)           GET https://account.proton.me/storage.html 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:26.666] [verbose] (net/mail)           GET https://mail.proton.me/api/auth/v4/sessions/forks/jvxzptwr7v4xy4wws3zchytsssazogqt 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:26.668] [info]  (uid)                UID changed; viewname: mail, uid: ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:26.972] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/users 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.104] [verbose] (net/mail)           PUT https://mail.proton.me/api/auth/v4/sessions/local/key 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.603] [verbose] (net/mail)           POST https://mail.proton.me/api/core/v4/auth/cookies 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.605] [info]  (mail)               did-navigate-in-page https://mail.proton.me/u/1/
+[2026-08-21 17:39:27.606] [info]  (main)               Rewriting URL to include local id https://calendar.proton.me/u/1/
+[2026-08-21 17:39:27.607] [info]  (calendar)           reset to home page https://calendar.proton.me/u/1/
+[2026-08-21 17:39:27.607] [info]  (calendar)           loadURL from file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Calendar%E2%80%A6&color=%23C7C4C1&backgroundColor=white to https://calendar.proton.me/u/1/
+[2026-08-21 17:39:27.609] [info]  (account)            reset to blank
+[2026-08-21 17:39:27.612] [debug] (main)               display-metrics-changed 72 []
+[2026-08-21 17:39:27.614] [debug] (main)               display-metrics-changed 73 []
+[2026-08-21 17:39:27.617] [verbose] (net/account)        GET file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:27.620] [info]  (account)            did-navigate file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white
+[2026-08-21 17:39:27.625] [verbose] (net/account)        GET file:///usr/share/proton-mail/proton-spinner.svg 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:27.627] [verbose] (view)               updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:39:27.629] [warn]  (renderer/account)   [sandbox_bundle:2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security Policy set or a policy with "unsafe-eval" enabled. This exposes users of this app to unnecessary security risks. For more information and help, consult https://electronjs.org/__REST_OF_URL__ This warning will not show up once the app is packaged.
+[2026-08-21 17:39:27.679] [verbose] (net/calendar)       GET https://calendar.proton.me/u/1/ 200 HTTP/1.1 200 undefined
+[2026-08-21 17:39:27.681] [info]  (calendar)           did-navigate https://calendar.proton.me/u/1/
+[2026-08-21 17:39:27.682] [debug] (calendar)           did-navigate set zoom factor to 1
+[2026-08-21 17:39:27.827] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/incomingdefaults?Location=14&Page=0&PageSize=100 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.829] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/settings 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.838] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/labels?Type=1 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.840] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/labels?Type=4 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.842] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/labels?Type=3 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.849] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/labels?Type=2 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.858] [verbose] (net/mail)           GET https://mail.proton.me/api/contacts/v4/contacts/emails?Page=0&PageSize=1000 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.861] [verbose] (net/mail)           GET https://mail.proton.me/api/feature/v2/frontend?sessionId=630424113&appName=-&environment=default 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.925] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/settings 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:27.985] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/incomingdefaults?Location=14&Page=0&PageSize=100 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.019] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/features?Code=EarlyAccess%2CMailActionsChunkSize%2CAccountSecurityDismissed2FACard%2CCategoryViewBeta&Limit=4 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.049] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/addresses?Page=0&PageSize=50 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.117] [debug] (main)               request-load-time average: 104ms deviation: 284ms max: 1755ms count: 36
+[2026-08-21 17:39:28.159] [debug] (flag-manager)       Checking flags
+[2026-08-21 17:39:28.163] [debug] (flag-manager)       Feature flags saved to cache
+[2026-08-21 17:39:28.372] [info]  (mail)               did-navigate-in-page https://mail.proton.me/u/1/inbox
+[2026-08-21 17:39:28.373] [info]  (main)               Rewriting URL to include local id https://calendar.proton.me/u/1/
+[2026-08-21 17:39:28.374] [info]  (calendar)           reset to home page https://calendar.proton.me/u/1/
+[2026-08-21 17:39:28.374] [info]  (calendar)           loadURL already in given url https://calendar.proton.me/u/1/
+[2026-08-21 17:39:28.375] [info]  (account)            reset to blank
+[2026-08-21 17:39:28.378] [verbose] (net/account)        GET file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:28.381] [info]  (account)            did-navigate file:///usr/share/proton-mail/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white
+[2026-08-21 17:39:28.386] [verbose] (net/account)        GET file:///usr/share/proton-mail/proton-spinner.svg 200 HTTP/1.0 200 OK undefined
+[2026-08-21 17:39:28.388] [verbose] (view)               updating view bounds {"x":0,"y":0,"width":1886,"height":1046}
+[2026-08-21 17:39:28.389] [warn]  (renderer/account)   [sandbox_bundle:2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security Policy set or a policy with "unsafe-eval" enabled. This exposes users of this app to unnecessary security risks. For more information and help, consult https://electronjs.org/__REST_OF_URL__ This warning will not show up once the app is packaged.
+[2026-08-21 17:39:28.389] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.391] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.392] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.393] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.394] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.395] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.396] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.396] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.397] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.398] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.399] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.400] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.401] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.402] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.404] [info]  (preload)            Sending message: updateNotification
+[2026-08-21 17:39:28.405] [info]  (ipc)                Update badge value 0
+[2026-08-21 17:39:28.405] [info]  (ipc)                Reset badge value
+[2026-08-21 17:39:28.406] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.407] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.411] [info]  (preload)            Sending message: checkDailyStatsAndSignal
+[2026-08-21 17:39:28.412] [debug] (protocol)           Checking default mailto
+[2026-08-21 17:39:28.440] [info]  (protocol)           App default mailto client status {
+  isDefault: false,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: false,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2026-08-21 17:39:28.444] [info]  (preload)            Sending message: metricsListenerChanged
+[2026-08-21 17:39:28.445] [debug] (main)               Metrics listener ready
+[2026-08-21 17:39:28.488] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/events/latest 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.499] [verbose] (net/mail)           POST https://mail.proton.me/api/data/v1/stats/multiple 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.534] [debug] (calendar)           did-finish-load https://calendar.proton.me/u/1/
+[2026-08-21 17:39:28.537] [verbose] (net/mail)           GET https://mail.proton.me/api/auth/v4/sessions/local 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.542] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/InterVariable.c504db5c06caaf7cdfba.woff2 net::ERR_CACHE_MISS undefined
+[2026-08-21 17:39:28.547] [info]  (preload)            Sending message: setTheme
+[2026-08-21 17:39:28.550] [info]  (preload)            Sending message: storeAppVersion
+[2026-08-21 17:39:28.551] [info]  (utils)              Application loaded: proton-calendar@5.0.128.2
+[2026-08-21 17:39:28.552] [debug] (utils)              Current versions are: 1.13.4 (M 5.0.128.11 / A 5.0.409.0 / C 5.0.128.2)
+[2026-08-21 17:39:28.557] [info]  (calendar)           will-navigate https://account.proton.me/authorize?app=proton-calendar&state=bVnXHkYJ-5iSFjXldT1xM1wGzZDjGnfN2wY93BtVpdQ&v=2&u=1&reason=session-expired&pv=3
+[2026-08-21 17:39:28.589] [verbose] (net/mail)           GET https://mail-api.proton.me/mail/v4/ai-assistant 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.591] [verbose] (net/mail)           GET https://mail.proton.me/api/account/v4/breaches/unread/count 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.592] [verbose] (net/mail)           GET https://mail.proton.me/api/importer/v1/sync 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.594] [verbose] (net/calendar)       GET https://account.proton.me/storage.html 200 HTTP/1.1 200 undefined
+[2026-08-21 17:39:28.597] [verbose] (net/calendar)       GET https://account.proton.me/authorize?app=proton-calendar&state=bVnXHkYJ-5iSFjXldT1xM1wGzZDjGnfN2wY93BtVpdQ&v=2&u=1&reason=session-expired&pv=3 200 HTTP/1.1 200 undefined
+[2026-08-21 17:39:28.599] [error]                      WebContents#did-fail-load: {
+  errorCode: -3,
+  errorDescription: '',
+  validatedURL: 'https://account.proton.me/storage.html',
+  isMainFrame: false,
+  frameProcessId: 9,
+  frameRoutingId: 5
+}
+[2026-08-21 17:39:28.600] [error] (calendar)           did-fail-load -3  https://account.proton.me/storage.html
+[2026-08-21 17:39:28.601] [error] (net/calendar)       GET https://account.proton.me/assets/static/runtime.6c37f1e1.js net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.603] [error] (renderer/calendar)  [1:0] Fetch API cannot load https://calendar.proton.me/assets/static/sprite-icons.871e55829e1630c84f64.svg.
+[2026-08-21 17:39:28.604] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/4428.1ea88b67.chunk.js net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.605] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/sprite-icons.871e55829e1630c84f64.svg net::ERR_FAILED undefined
+[2026-08-21 17:39:28.606] [error] (renderer/calendar)  [1:0] Fetch API cannot load https://calendar.proton.me/assets/static/file-icons.513b6cf6e3f2d0fb7e72.svg.
+[2026-08-21 17:39:28.607] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/file-icons.513b6cf6e3f2d0fb7e72.svg net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.608] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/8136.66484fa0.chunk.js net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.609] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/InterVariable.c504db5c06caaf7cdfba.woff2 net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.610] [error] (net)                GET https://account.proton.me/assets/static/storage.3c2f8a6f.js net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.611] [info]  (calendar)           did-navigate https://account.proton.me/authorize?app=proton-calendar&state=bVnXHkYJ-5iSFjXldT1xM1wGzZDjGnfN2wY93BtVpdQ&v=2&u=1&reason=session-expired&pv=3
+[2026-08-21 17:39:28.612] [debug] (calendar)           did-navigate set zoom factor to 1
+[2026-08-21 17:39:28.614] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/MainContainer.e6c02fc9.css net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.617] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/6160.e03b1095.chunk.js net::ERR_ABORTED undefined
+[2026-08-21 17:39:28.712] [debug] (main)               window: blur
+[2026-08-21 17:39:28.725] [info]  (preload)            Sending message: storeAppVersion
+[2026-08-21 17:39:28.727] [info]  (utils)              Application loaded: proton-account@5.0.409.0
+[2026-08-21 17:39:28.727] [debug] (utils)              Current versions are: 1.13.4 (M 5.0.128.11 / A 5.0.409.0 / C 5.0.128.2)
+[2026-08-21 17:39:28.739] [info]  (preload)            Sending message: setTheme
+[2026-08-21 17:39:28.742] [info]  (uid)                UID changed; viewname: calendar, uid: ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:28.745] [error] (net/calendar)       GET https://account.proton.me/assets/static/InterVariable.c504db5c06caaf7cdfba.woff2 net::ERR_CACHE_MISS ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:28.756] [info]  (preload)            Sending message: dailyStatsReported
+[2026-08-21 17:39:28.834] [verbose] (net/calendar)       GET https://account.proton.me/api/auth/v4/sessions/local/key 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:28.837] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:28.838] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:28.839] [info]  (preload)            Sending message: toggleAppCache
+[2026-08-21 17:39:28.855] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/features?Code=BlockSenderInToolbar%2CAutoDelete%2CNumAttachmentsWithoutEmbedded&Limit=3 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.927] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/users/invitations 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.928] [verbose] (net/calendar)       GET https://account.proton.me/api/core/v4/users 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:28.930] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations?Page=0&PageSize=50&Limit=50&LabelID%5B%5D=0&Sort=Time&Desc=1 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.952] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/filters 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.955] [verbose] (net/mail)           GET https://mail.proton.me/api/payments/v6/subscription/latest 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.965] [verbose] (net/mail)           GET https://mail.proton.me/api/settings/calendar 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.986] [verbose] (net/mail)           GET https://mail.proton.me/api/calendar/v1?OrderBy=0&ReturnFlags=1 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.989] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/newsletter-subscriptions?PageSize=100&Active=0&Spam=0&Sort[LastReceivedTime]=DESC&Sort[ID]=DESC 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:28.991] [verbose] (net/calendar)       POST https://account.proton.me/api/auth/v4/sessions/forks 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:28.993] [info]  (calendar)           will-navigate https://calendar.proton.me/login#selector=yuy6vodebtebrlrnalfohinqbswdtkbq&sk=M54hdOgy4s16qw6nnJliXtio70V550A-RFVEs5z_w8I&v=2&state=bVnXHkYJ-5iSFjXldT1xM1wGzZDjGnfN2wY93BtVpdQ&p=1&tr=1&pv=3&pt=default&source=0
+[2026-08-21 17:39:29.017] [verbose] (net/calendar)       GET https://calendar.proton.me/login#selector=yuy6vodebtebrlrnalfohinqbswdtkbq&sk=M54hdOgy4s16qw6nnJliXtio70V550A-RFVEs5z_w8I&v=2&state=bVnXHkYJ-5iSFjXldT1xM1wGzZDjGnfN2wY93BtVpdQ&p=1&tr=1&pv=3&pt=default&source=0 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:29.020] [info]  (calendar)           did-navigate https://calendar.proton.me/login#selector=yuy6vodebtebrlrnalfohinqbswdtkbq&sk=M54hdOgy4s16qw6nnJliXtio70V550A-RFVEs5z_w8I&v=2&state=bVnXHkYJ-5iSFjXldT1xM1wGzZDjGnfN2wY93BtVpdQ&p=1&tr=1&pv=3&pt=default&source=0
+[2026-08-21 17:39:29.021] [debug] (calendar)           did-navigate set zoom factor to 1
+[2026-08-21 17:39:29.023] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/newsletter-subscriptions?PageSize=100&Active=1&Spam=0&Sort[LastReceivedTime]=DESC&Sort[ID]=DESC 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:29.067] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/messages/count?OnlyInInboxForCategories=0 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:29.069] [info]  (preload)            Sending message: setTheme
+[2026-08-21 17:39:29.071] [info]  (preload)            Sending message: storeAppVersion
+[2026-08-21 17:39:29.072] [info]  (utils)              Application loaded: proton-calendar@5.0.128.2
+[2026-08-21 17:39:29.073] [debug] (utils)              Current versions are: 1.13.4 (M 5.0.128.11 / A 5.0.409.0 / C 5.0.128.2)
+[2026-08-21 17:39:29.078] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations/count?OnlyInInboxForCategories=0 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:29.114] [verbose] (net/calendar)       GET https://account.proton.me/storage.html 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:29.214] [error] (net/calendar)       GET https://calendar.proton.me/assets/static/InterVariable.c504db5c06caaf7cdfba.woff2 net::ERR_CACHE_MISS ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:29.235] [verbose] (net/calendar)       GET https://calendar.proton.me/api/auth/v4/sessions/forks/yuy6vodebtebrlrnalfohinqbswdtkbq 200 HTTP/1.1 200 ytjjyan7nkfesl5l6r42ynejd7bfzwtr
+[2026-08-21 17:39:29.238] [info]  (uid)                UID changed; viewname: calendar, uid: dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:29.282] [debug] (main)               window: focus
+[2026-08-21 17:39:29.284] [info]  (preload)            Sending message: updateNotification
+[2026-08-21 17:39:29.286] [info]  (ipc)                Update badge value 1035
+[2026-08-21 17:39:29.350] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations?Limit=50&LabelID%5B%5D=0&Sort=Time&Desc=1&Anchor=1786874739&AnchorID=6rC0wCWfhXE1jo6whg7L-SKXS0UVqL95HwK5EGNDwuZQHooX6lvoLYMcC00xI1Z_nmjpoOYEDPGkKWvfeupzsQ%3D%3D 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:29.711] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations?Page=0&PageSize=50&Limit=50&LabelID%5B%5D=0&Sort=SnoozeTime&Desc=1 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:29.724] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/features?Code=Offers%2COfferPassFamilyPlan2024Yearly%2COfferMailTrial2023%2COfferGoUnlimited2022%2CMailPostSignupOneDollarState%2CDrivePostSignupOneDollarState%2CSubscriptionLastReminderDate%2CMailPaidUserNudgeTimestamp%2CDrivePaidUserNudgeTimestamp%2CBundlePaidUserNudgeTimestamp%2COfferGoUnlimited2025%2CHideUnlimitedToDuoPermanentOffer&Limit=12 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:29.795] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/users 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.049] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations?Limit=50&LabelID%5B%5D=0&Sort=SnoozeTime&Desc=1&Anchor=1786874739&AnchorID=6rC0wCWfhXE1jo6whg7L-SKXS0UVqL95HwK5EGNDwuZQHooX6lvoLYMcC00xI1Z_nmjpoOYEDPGkKWvfeupzsQ%3D%3D 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.074] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/features?Code=ProtonBadge&Limit=1 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.086] [verbose] (net/mail)           GET https://mail.proton.me/api/payments/v4/plans/default 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.101] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/features?Code=CategoryViewB2COnboardingViewFlags%2CCategoryViewB2BOnboardingViewFlags%2CComposerAssistantTrialStartDate%2CDismissedRecoverDataCard%2CElectronESInboxThreshold%2CSpotlightIntroduceBookings%2CBookingSpotlightInMail%2CNewsletterSubscriptionSpotlight%2CFeatureTourExpirationDate%2CAutoDowngradeReminder%2CInboxDesktopFreeTrialDates%2CInboxDesktopFreeTrialReminders%2CSeenLightLabellingFeatureModal%2CNPSFeedbackDesktopMail%2CNumberOfPreloadedConversations%2CElectronConvPreloadAmount%2CBYOESpotlightModal%2CCategoryViewOnboardingAccountDateThreshold%2CShowB2BOnboardingButton%2CB2BOnboardingSpotlight%2CReferralProgram%2CReferralProgramSpotlight%2CSpotlightBreachAlertSecurityCenter%2CReferralSpotlightSettings%2CReferralTopBarButton%2CReferralDrawerApp&Limit=26 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.112] [verbose] (net/mail)           GET https://mail.proton.me/api/payments/v5/status 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.160] [verbose] (net/mail)           GET https://mail.proton.me/api/payments/v4/plans 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.475] [verbose] (net/calendar)       PUT https://calendar.proton.me/api/auth/v4/sessions/local/key 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.481] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations/M_FekpZ0xJ2mIDlv_pUjYinxezxz5uv-4jdiL1z3ryJacxPDqxPIOl5vKrD9-Ykk_yGt9h2LS_33Sgth4fSRjQ== 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.487] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations/IqhQ04DLEgmPGW69J1kOnS2ClM9t7NOUb0zjsXj1N0Tj6AYxdNQsNRC90QXj5JeAzpdQb6NPyS95rRdlUM0MYQ== 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.493] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations/JrAiSOFXbZvWKzVN0oDfdrMOkcZUVoxxzQheY6fBSjOgN0-VsCPi7XyzBNORUxvayeTIiR30y3OyQvm9-VfL2Q== 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.515] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations/ZN2uqJqpp6Kad3unTgmzHkF2Z67zhJ-cFvygac_F08F8r6MSiP14eW1Qg22z0BoFq6ADD8Xit19u6MJxAfgYhQ== 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.529] [verbose] (net/mail)           GET https://mail.proton.me/api/mail/v4/conversations/GTeXgfNsUxuF2wW4dU6i6BZH-Giuq8Hj6iKlrbrRJgOW0RmcPxINiBATJMyqaUPNEAuwXEtWoG6yZJah9SKaog== 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:30.564] [verbose] (net/calendar)       POST https://calendar.proton.me/api/core/v4/auth/cookies 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.566] [info]  (calendar)           did-navigate-in-page https://calendar.proton.me/u/1/
+[2026-08-21 17:39:30.717] [verbose] (net/calendar)       GET https://calendar.proton.me/api/feature/v2/frontend?sessionId=429766653&appName=-&environment=default 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.719] [verbose] (net/calendar)       GET https://calendar.proton.me/api/calendar/v1?OrderBy=0&ReturnFlags=0 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.735] [verbose] (net/calendar)       GET https://calendar.proton.me/api/settings/calendar 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.737] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/features?Code=EarlyAccess%2CAutoAddHolidaysCalendars&Limit=2 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.740] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/settings 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.742] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/addresses?Page=0&PageSize=50 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.974] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/events/latest 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:30.996] [verbose] (net/calendar)       GET https://calendar.proton.me/api/auth/v4/sessions/local 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.032] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/features?Code=DismissedRecoverDataCard&Limit=1 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.247] [verbose] (net/calendar)       POST https://calendar.proton.me/api/calendar/v1 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.320] [verbose] (net/calendar)       PUT https://calendar.proton.me/api/settings/calendar 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.710] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v5/events/J1ajODdia4KW-H8oqLNrgjY_YSZc6igcIp3Y4YvBx8s7Uo4cmdUTR1v_B9lDVQj9IgDyduJRqgMHdcoX5fH2Uw==?CalledFrom=Background 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.747] [verbose] (net/calendar)       GET https://calendar.proton.me/api/settings/calendar 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.758] [verbose] (net/calendar)       GET https://calendar.proton.me/api/calendar/v1?OrderBy=0&ReturnFlags=0 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.827] [verbose] (net/calendar)       GET https://calendar.proton.me/api/calendar/v2/qJ-8lzwde7vV8F3yOTB35ba-WBar4T0J0mQCC0HTjG3kPJooD4RH7KOc5imb44z-N02Dc4tLEAnFGCwkI6YKpg==/bootstrap 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.886] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.888] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.889] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.889] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.890] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.891] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.892] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.893] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.894] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.894] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.895] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.896] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.903] [verbose] (net/calendar)       PUT https://calendar.proton.me/api/core/v4/settings/welcome 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.937] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/labels?Type=2 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.943] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/labels?Type=1 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.960] [verbose] (net/calendar)       POST https://calendar.proton.me/api/data/v1/stats/multiple 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.971] [info]  (preload)            Sending message: earlyAccess
+[2026-08-21 17:39:31.972] [info]  (settings)           Updating release category undefined
+[2026-08-21 17:39:31.979] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/labels?Type=4 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.980] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/labels?Type=3 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.981] [verbose] (net/calendar)       GET https://calendar.proton.me/api/account/v4/breaches/unread/count 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:31.983] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/features?Code=AutoDowngradeReminder%2CSeenLightLabellingFeatureModal%2CNPSFeedbackDesktopCalendar%2CCalendarEncryptedSearch%2CNewScheduleOptionSpotlight%2CReferralProgram%2CReferralProgramSpotlight%2CSpotlightIntroduceBookings%2CReferralSpotlightSettings%2CReferralTopBarButton%2CReferralDrawerApp&Limit=11 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:32.038] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/features?Code=InboxDesktopFreeTrialDates%2CInboxDesktopFreeTrialReminders&Limit=2 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:32.112] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/features?Code=Offers%2COfferPassFamilyPlan2024Yearly%2COfferMailTrial2023%2COfferGoUnlimited2022%2CMailPostSignupOneDollarState%2CDrivePostSignupOneDollarState%2CSubscriptionLastReminderDate%2CMailPaidUserNudgeTimestamp%2CDrivePaidUserNudgeTimestamp%2CBundlePaidUserNudgeTimestamp%2COfferGoUnlimited2025%2CHideUnlimitedToDuoPermanentOffer&Limit=12 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:32.141] [verbose] (net/calendar)       GET https://calendar.proton.me/api/contacts/v4/contacts/emails?Page=0&PageSize=1000 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:32.143] [verbose] (net/calendar)       GET https://calendar.proton.me/api/payments/v6/subscription/latest 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:32.144] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/users/invitations 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:32.146] [verbose] (net/calendar)       GET https://calendar.proton.me/api/mail/v4/settings 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:37.712] [verbose] (net/mail)           POST https://mail.proton.me/api/feature/v2/frontend/client/metrics 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:38.117] [debug] (main)               request-load-time average: 100ms deviation: 153ms max: 686ms count: 59
+[2026-08-21 17:39:38.763] [verbose] (net/mail)           POST https://mail.proton.me/api/data/v1/stats/multiple 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:39.353] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/addresses?Page=0&PageSize=50 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:39.543] [verbose] (net/mail)           GET https://mail.proton.me/api/kt/epochs 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:39.838] [verbose] (net/mail)           GET https://mail.proton.me/api/kt/v1/verifiedepoch/nakKL12mSOs2OcuL-NL8bXDKGOLjF2zSIPfSduAI-CChvPXiDZQpvowzUhhRYXpZ7CnNq4tHBR977hSIfcMjRw== 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:39.853] [error] (net/mail)           GET https://mail.proton.me/api/kt/v1/verifiedepoch/DpMgViADGHNF7LHrD-3r4Hr4x1hfCf9JwK3KkojeL71loTNDEMlWENqOLt3yhA5bEJ6YPi7x8vtUb3q1wfjieA== 422 HTTP/1.1 422 net::OK ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:40.013] [verbose] (net/mail)           GET https://mail.proton.me/api/core/v4/keys/signedkeylists?AfterRevision=0&Identifier=__EMAIL_NONPROTON__ 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:40.216] [verbose] (net/mail)           GET https://mail.proton.me/api/kt/v1/epochs/6640/proof?Identifier=__EMAIL_NONPROTON__&Revision=1 200 HTTP/1.1 200 ywepoaamhbi6pg3jszso6fu3my62im7i
+[2026-08-21 17:39:40.908] [verbose] (net/calendar)       POST https://calendar.proton.me/api/feature/v2/frontend/client/metrics 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:41.950] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/addresses?Page=0&PageSize=50 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:42.016] [verbose] (net/calendar)       GET https://calendar.proton.me/api/kt/epochs 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:42.197] [verbose] (net/calendar)       GET https://calendar.proton.me/api/kt/v1/verifiedepoch/nakKL12mSOs2OcuL-NL8bXDKGOLjF2zSIPfSduAI-CChvPXiDZQpvowzUhhRYXpZ7CnNq4tHBR977hSIfcMjRw== 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:42.208] [error] (net/calendar)       GET https://calendar.proton.me/api/kt/v1/verifiedepoch/DpMgViADGHNF7LHrD-3r4Hr4x1hfCf9JwK3KkojeL71loTNDEMlWENqOLt3yhA5bEJ6YPi7x8vtUb3q1wfjieA== 422 HTTP/1.1 422 net::OK dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:42.252] [verbose] (net/calendar)       GET https://calendar.proton.me/api/core/v4/keys/signedkeylists?AfterRevision=0&Identifier=__EMAIL_NONPROTON__ 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:42.295] [verbose] (net/calendar)       GET https://calendar.proton.me/api/kt/v1/epochs/6640/proof?Identifier=__EMAIL_NONPROTON__&Revision=1 200 HTTP/1.1 200 dhz34yeaa7y4ykdhi2wdrieoqzm2wg53
+[2026-08-21 17:39:47.967] [info]  (main)               close, window not visible on Windows or Linux
+[2026-08-21 17:39:47.970] [info]  (main)               All windows closed
+[2026-08-21 17:39:47.970] [info]  (main)               quit-reason set: all-windows-closed
+[2026-08-21 17:39:47.971] [info]  (main)               before-quit reason: all-windows-closed
+[2026-08-21T15:39:47.973Z] [info]  (main)         process-exit reason: all-windows-closed (code: 0)
+[2026-08-21 17:39:47.973] [info]  (main)               quit-reason additional: windows-linux-exit-event (primary: all-windows-closed)

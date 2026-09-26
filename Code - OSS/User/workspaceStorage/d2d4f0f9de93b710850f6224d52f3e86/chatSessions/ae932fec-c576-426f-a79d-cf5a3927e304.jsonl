@@ -1,0 +1,5 @@
+{"kind":0,"v":{"version":3,"creationDate":1789240664098,"initialLocation":"panel","responderUsername":"","sessionId":"ae932fec-c576-426f-a79d-cf5a3927e304","hasPendingEdits":false,"requests":[],"pendingRequests":[],"inputState":{"attachments":[],"mode":{"id":"agent","kind":"agent"},"inputText":"","selections":[{"startLineNumber":1,"startColumn":1,"endLineNumber":1,"endColumn":1,"selectionStartLineNumber":1,"selectionStartColumn":1,"positionLineNumber":1,"positionColumn":1}],"permissionLevel":"default","contrib":{"chatDynamicVariableModel":[]}}}}
+{"kind":1,"k":["inputState","inputText"],"v":"@workspace /explain Unknown at rule @define-color"}
+{"kind":1,"k":["inputState","selections"],"v":[{"startLineNumber":1,"startColumn":50,"endLineNumber":1,"endColumn":50,"selectionStartLineNumber":1,"selectionStartColumn":50,"positionLineNumber":1,"positionColumn":50}]}
+{"kind":1,"k":["inputState","inputText"],"v":""}
+{"kind":1,"k":["inputState","selections"],"v":[{"startLineNumber":1,"startColumn":1,"endLineNumber":1,"endColumn":1,"selectionStartLineNumber":1,"selectionStartColumn":1,"positionLineNumber":1,"positionColumn":1}]}

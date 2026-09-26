@@ -1,0 +1,117 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "82b1af0391ddb5de6ec75d44d7c6117b3125e3c3d2f39f6682485d3a54d21351",
+    "telemetry.devDeviceId": "18aa1004-a213-4e09-87bb-20ccd83ed1af",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/sebbie/.config"
+            },
+            {
+                "folderUri": "file:///home/sebbie/.config/hypr"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/sebbie/.config/hypr": "__default__profile__",
+            "file:///home/sebbie/.config": "__default__profile__",
+            "file:///home/sebbie/.cache/wal": "__default__profile__",
+            "file:///home/sebbie/.config/waybar": "__default__profile__",
+            "file:///home/sebbie/.config/kitty": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarInactiveBackground": "#121314",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "modernActivityBarBackground": "#191a1b",
+            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBorder": "#252526",
+            "modernPanelBorder": "#2a2b2c",
+            "modernUIShellBackground": "#191a1b",
+            "modernUIInactiveShellBackground": "#121314",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "editorBorder": "#2a2b2c",
+            "surfaceBackground": "#191a1b",
+            "surfaceBorder": "#2a2b2c",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarInactiveBackground": "#121314",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 235,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/sebbie/.config/hypr",
+            "backupPath": "/home/sebbie/.config/Code - OSS/Backups/f563e8ec7121538d3f6991faf97d77a7",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 950,
+                "height": 506
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 235,
+            "workspaces": {
+                "0b18712b55b199941b9aa8886920cc98": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "d2d4f0f9de93b710850f6224d52f3e86": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "23fc50525eab124f18b10ef741d0ace5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "8061ba0e9a47a73dbc3218aff9028618": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6e348fa30eeb9893a4c7876937869c62": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1084 @@
+[2026-08-21 16:58:40.184] [info]  No state version found, assuming empty state.
+[2026-08-21 16:58:40.245] [info]  [Process Isolation] Isolating process from debuggers and memory dumps
+[2026-08-21 16:58:40.247] [info]  [NAPI] [INFO] desktop_core::process_isolation::process_isolation: Disabling ptrace and memory access for main via PR_SET_DUMPABLE. pid=11578
+[2026-08-21 16:58:40.249] [info]  Coredumps are disabled in renderer process
+[2026-08-21 16:58:40.607] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-08-21 16:58:40.609] [info]  State version: 75
+[2026-08-21 16:58:40.615] [error] Unhandled error in angular Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 16:58:40.625] [info]  Retrieving application id
+[2026-08-21 16:58:40.934] [info]  [BiometricsMain] Loading native biometrics module v2 for linux
+[2026-08-21 16:58:40.935] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key:  is not a valid secure key container backend, using automatic selection
+[2026-08-21 16:58:40.935] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key: Using memfd_secret for secure key storage
+[2026-08-21 16:59:00.887] [info]  Retrieving application id
+[2026-08-21 16:59:00.893] [info]  Retrieving application id
+[2026-08-21 17:00:16.625] [info]  Retrieving application id
+[2026-08-21 17:00:22.514] [info]  [KeyService] Deriving master key took 415ms
+[2026-08-21 17:00:22.516] [info]  Retrieving application id
+[2026-08-21 17:01:14.736] [info]  Active account changed, clearing SSH keys
+[2026-08-21 17:01:14.751] [error] Failed to clear SSH keys Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:01:14.766] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.767] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.768] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.770] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.770] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.770] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 17:01:14.773] [info]  Using SignalR for server notifications
+[2026-08-21 17:01:14.773] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.775] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.775] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_refreshToken
+[2026-08-21 17:01:14.776] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.776] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.776] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 17:01:14.778] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.778] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.802] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.802] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.805] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.805] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.813] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.822] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.822] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:14.824] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:14.824] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:15.295] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2026-08-21 17:01:15.296] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 17:01:15.370] [info]  Active account changed, clearing SSH keys
+[2026-08-21 17:01:15.373] [error] Failed to clear SSH keys Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:01:15.388] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:15.389] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:15.435] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:15.436] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:15.460] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:15.460] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:15.474] [info]  [EncryptedMigrationsScheduler] No migrations needed for user 489ea2e0-e120-493c-91ad-b15c012ac9ad
+[2026-08-21 17:01:15.476] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:15.476] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:15.506] [info]  [CipherService]: decrypt complete took 23.09999999962747 [ [ 'Items', 12 ] ]
+[2026-08-21 17:01:15.548] [info]  [SearchService]: index complete took 40.90000000037253 [ [ 'Items', 12 ] ]
+[2026-08-21 17:01:44.859] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:44.859] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:44.860] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:01:44.861] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:01:45.074] [info]  [CipherService]: decrypt complete took 1.699999999254942 [ [ 'Items', 12 ] ]
+[2026-08-21 17:01:45.121] [info]  [SearchService]: index complete took 23.299999998882413 [ [ 'Items', 12 ] ]
+[2026-08-21 17:01:47.542] [info]  Retrieving application id
+[2026-08-21 17:08:27.565] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:08:27.565] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:08:27.576] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:08:27.577] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:52.407] [info]  State version: 75
+[2026-08-21 17:09:52.414] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2026-08-21 17:09:52.414] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2026-08-21 17:09:52.414] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2026-08-21 17:09:52.414] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2026-08-21 17:09:52.414] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2026-08-21 17:09:52.415] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2026-08-21 17:09:52.416] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2026-08-21 17:09:52.417] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator AddMasterPasswordUnlockData (to version 73) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator RemoveLegacyPin (to version 74) should migrate: false - up
+[2026-08-21 17:09:52.418] [info]  Migrator RemoveUserEncryptedPrivateKey (to version 75) should migrate: false - up
+[2026-08-21 17:09:52.475] [info]  [Process Isolation] Isolating process from debuggers and memory dumps
+[2026-08-21 17:09:52.477] [info]  [NAPI] [INFO] desktop_core::process_isolation::process_isolation: Disabling ptrace and memory access for main via PR_SET_DUMPABLE. pid=12605
+[2026-08-21 17:09:52.479] [info]  Coredumps are disabled in renderer process
+[2026-08-21 17:09:52.797] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-08-21 17:09:52.799] [info]  State version: 75
+[2026-08-21 17:09:52.799] [error] Unhandled error in angular Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:09:52.800] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden_auto 489ea2e0-e120-493c-91ad-b15c012ac9ad_user_auto
+[2026-08-21 17:09:52.801] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:52.819] [info]  Using SignalR for server notifications
+[2026-08-21 17:09:52.821] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:52.822] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:52.822] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:52.822] [info]  [BiometricsMain] Loading native biometrics module v2 for linux
+[2026-08-21 17:09:52.823] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key:  is not a valid secure key container backend, using automatic selection
+[2026-08-21 17:09:52.823] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key: Using memfd_secret for secure key storage
+[2026-08-21 17:09:52.823] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:52.837] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:52.838] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.114] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:53.114] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.116] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.117] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:53.118] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.118] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 17:09:53.122] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.123] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_refreshToken
+[2026-08-21 17:09:53.123] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.124] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 17:09:53.125] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:53.126] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.127] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:53.128] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:09:53.356] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2026-08-21 17:09:53.356] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 17:09:53.574] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:09:53.575] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:07.749] [info]  [DefaultUnlockService] Setting legacy master key from unlock data
+[2026-08-21 17:10:08.153] [info]  [DefaultUnlockService]: unlockWithMasterPassword took 839.0999999996275 undefined
+[2026-08-21 17:10:08.153] [info]  Vault unlocked 2026-08-21T15:10:08.153Z
+[2026-08-21 17:10:08.159] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:08.166] [info]  [LockComponent] Private key regeneration took 1ms
+[2026-08-21 17:10:08.167] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:10:08.167] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:10:08.168] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:08.168] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:08.169] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:10:08.169] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:08.191] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:10:08.192] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:08.200] [info]  [EncryptedMigrationsScheduler] No migrations needed for user 489ea2e0-e120-493c-91ad-b15c012ac9ad
+[2026-08-21 17:10:08.208] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:10:08.209] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:10:08.222] [info]  [CipherService]: decrypt complete took 20.09999999962747 [ [ 'Items', 12 ] ]
+[2026-08-21 17:10:08.248] [info]  [SearchService]: index complete took 24 [ [ 'Items', 12 ] ]
+[2026-08-21 17:10:08.427] [info]  [EncryptedMigrationsScheduler] No migrations needed for user 489ea2e0-e120-493c-91ad-b15c012ac9ad
+[2026-08-21 17:12:07.576] [info]  State version: 75
+[2026-08-21 17:12:07.580] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2026-08-21 17:12:07.580] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2026-08-21 17:12:07.580] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2026-08-21 17:12:07.581] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2026-08-21 17:12:07.582] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2026-08-21 17:12:07.583] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator AddMasterPasswordUnlockData (to version 73) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator RemoveLegacyPin (to version 74) should migrate: false - up
+[2026-08-21 17:12:07.584] [info]  Migrator RemoveUserEncryptedPrivateKey (to version 75) should migrate: false - up
+[2026-08-21 17:12:07.660] [info]  [Process Isolation] Isolating process from debuggers and memory dumps
+[2026-08-21 17:12:07.665] [info]  [NAPI] [INFO] desktop_core::process_isolation::process_isolation: Disabling ptrace and memory access for main via PR_SET_DUMPABLE. pid=1125
+[2026-08-21 17:12:07.667] [info]  Coredumps are disabled in renderer process
+[2026-08-21 17:12:08.048] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-08-21 17:12:08.050] [info]  State version: 75
+[2026-08-21 17:12:08.050] [error] Unhandled error in angular Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:12:08.053] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden_auto 489ea2e0-e120-493c-91ad-b15c012ac9ad_user_auto
+[2026-08-21 17:12:08.054] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.071] [info]  Using SignalR for server notifications
+[2026-08-21 17:12:08.073] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.074] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.074] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.074] [info]  [BiometricsMain] Loading native biometrics module v2 for linux
+[2026-08-21 17:12:08.075] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key:  is not a valid secure key container backend, using automatic selection
+[2026-08-21 17:12:08.075] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key: Using memfd_secret for secure key storage
+[2026-08-21 17:12:08.075] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.089] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.090] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.417] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.418] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.421] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.422] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.423] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.423] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 17:12:08.427] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.428] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_refreshToken
+[2026-08-21 17:12:08.429] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.429] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 17:12:08.431] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.431] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.432] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.433] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:08.622] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2026-08-21 17:12:08.622] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 17:12:08.778] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:08.779] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.307] [info]  [DefaultUnlockService] Setting legacy master key from unlock data
+[2026-08-21 17:12:26.715] [info]  [DefaultUnlockService]: unlockWithMasterPassword took 850 undefined
+[2026-08-21 17:12:26.715] [info]  Vault unlocked 2026-08-21T15:12:26.715Z
+[2026-08-21 17:12:26.721] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.729] [info]  [LockComponent] Private key regeneration took 0ms
+[2026-08-21 17:12:26.730] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:26.731] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:26.731] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.732] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.732] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:26.734] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.756] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:26.757] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.768] [info]  [EncryptedMigrationsScheduler] No migrations needed for user 489ea2e0-e120-493c-91ad-b15c012ac9ad
+[2026-08-21 17:12:26.773] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:12:26.774] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:12:26.787] [info]  [CipherService]: decrypt complete took 17.5 [ [ 'Items', 12 ] ]
+[2026-08-21 17:12:26.811] [info]  [SearchService]: index complete took 21.5 [ [ 'Items', 12 ] ]
+[2026-08-21 17:12:26.917] [info]  [EncryptedMigrationsScheduler] No migrations needed for user 489ea2e0-e120-493c-91ad-b15c012ac9ad
+[2026-08-21 17:17:47.372] [info]  State version: 75
+[2026-08-21 17:17:47.375] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2026-08-21 17:17:47.376] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2026-08-21 17:17:47.377] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2026-08-21 17:17:47.378] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator AddMasterPasswordUnlockData (to version 73) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveLegacyPin (to version 74) should migrate: false - up
+[2026-08-21 17:17:47.379] [info]  Migrator RemoveUserEncryptedPrivateKey (to version 75) should migrate: false - up
+[2026-08-21 17:18:02.214] [info]  State version: 75
+[2026-08-21 17:18:02.218] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2026-08-21 17:18:02.218] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2026-08-21 17:18:02.218] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2026-08-21 17:18:02.218] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2026-08-21 17:18:02.219] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2026-08-21 17:18:02.220] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2026-08-21 17:18:02.221] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator AddMasterPasswordUnlockData (to version 73) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator RemoveLegacyPin (to version 74) should migrate: false - up
+[2026-08-21 17:18:02.222] [info]  Migrator RemoveUserEncryptedPrivateKey (to version 75) should migrate: false - up
+[2026-08-21 17:18:02.283] [info]  [Process Isolation] Isolating process from debuggers and memory dumps
+[2026-08-21 17:18:02.285] [info]  [NAPI] [INFO] desktop_core::process_isolation::process_isolation: Disabling ptrace and memory access for main via PR_SET_DUMPABLE. pid=1918
+[2026-08-21 17:18:02.287] [info]  Coredumps are disabled in renderer process
+[2026-08-21 17:18:02.603] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-08-21 17:18:02.604] [info]  State version: 75
+[2026-08-21 17:18:02.605] [error] Unhandled error in angular Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:18:02.606] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden_auto 489ea2e0-e120-493c-91ad-b15c012ac9ad_user_auto
+[2026-08-21 17:18:02.607] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:02.625] [info]  Using SignalR for server notifications
+[2026-08-21 17:18:02.627] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:02.628] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:02.628] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:02.628] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:02.629] [info]  [BiometricsMain] Loading native biometrics module v2 for linux
+[2026-08-21 17:18:02.629] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key:  is not a valid secure key container backend, using automatic selection
+[2026-08-21 17:18:02.629] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key: Using memfd_secret for secure key storage
+[2026-08-21 17:18:02.630] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:02.631] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:34.348] [info]  State version: 75
+[2026-08-21 17:18:34.352] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2026-08-21 17:18:34.352] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2026-08-21 17:18:34.353] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2026-08-21 17:18:34.354] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator AddMasterPasswordUnlockData (to version 73) should migrate: false - up
+[2026-08-21 17:18:34.355] [info]  Migrator RemoveLegacyPin (to version 74) should migrate: false - up
+[2026-08-21 17:18:34.356] [info]  Migrator RemoveUserEncryptedPrivateKey (to version 75) should migrate: false - up
+[2026-08-21 17:18:34.414] [info]  [Process Isolation] Isolating process from debuggers and memory dumps
+[2026-08-21 17:18:34.416] [info]  [NAPI] [INFO] desktop_core::process_isolation::process_isolation: Disabling ptrace and memory access for main via PR_SET_DUMPABLE. pid=2231
+[2026-08-21 17:18:34.418] [info]  Coredumps are disabled in renderer process
+[2026-08-21 17:18:34.730] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-08-21 17:18:34.731] [info]  State version: 75
+[2026-08-21 17:18:34.732] [error] Unhandled error in angular Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:18:34.733] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden_auto 489ea2e0-e120-493c-91ad-b15c012ac9ad_user_auto
+[2026-08-21 17:18:34.734] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:34.752] [info]  Using SignalR for server notifications
+[2026-08-21 17:18:34.754] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:34.755] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:34.755] [info]  [BiometricsMain] Loading native biometrics module v2 for linux
+[2026-08-21 17:18:34.755] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key:  is not a valid secure key container backend, using automatic selection
+[2026-08-21 17:18:34.756] [info]  [NAPI] [INFO] desktop_core::secure_memory::secure_key: Using memfd_secret for secure key storage
+[2026-08-21 17:18:34.756] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:34.756] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:34.770] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:34.771] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.310] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:35.311] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.314] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.315] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:35.316] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.316] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 17:18:35.320] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.321] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_refreshToken
+[2026-08-21 17:18:35.321] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.322] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 17:18:35.324] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:35.324] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.325] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:35.326] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:35.709] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:18:35.710] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:18:36.248] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2026-08-21 17:18:36.249] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 17:30:43.167] [info]  Using SignalR for server notifications
+[2026-08-21 17:30:43.167] [info]  [SignalR] Connection disconnected.
+[2026-08-21 17:30:43.169] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:30:43.169] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:30:43.170] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden 489ea2e0-e120-493c-91ad-b15c012ac9ad_accessTokenKey
+[2026-08-21 17:30:43.171] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:30:43.698] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2026-08-21 17:30:43.698] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 17:30:44.078] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:30:44.142] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:30:44.143] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:30:44.148] [info]  Active account changed, clearing SSH keys
+[2026-08-21 17:30:44.149] [info]  [SignalR] Connection disconnected.
+[2026-08-21 17:30:44.150] [error] Failed to clear SSH keys Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:30:44.173] [info]  Active account changed, clearing SSH keys
+[2026-08-21 17:30:44.174] [info]  Reloading render process
+[2026-08-21 17:30:44.187] [info]  Render process reloaded
+[2026-08-21 17:30:44.413] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-08-21 17:30:44.413] [info]  State version: 75
+[2026-08-21 17:30:44.414] [error] Unhandled error in angular Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:30:44.415] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden_auto 489ea2e0-e120-493c-91ad-b15c012ac9ad_user_auto
+[2026-08-21 17:30:44.415] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:30:44.518] [info]  Retrieving application id
+[2026-08-21 17:30:44.524] [info]  Retrieving application id
+[2026-08-21 17:34:54.682] [info]  Retrieving application id
+[2026-08-21 17:34:54.687] [info]  Retrieving application id
+[2026-08-21 17:35:55.044] [info]  Retrieving application id
+[2026-08-21 17:35:55.697] [info]  [KeyService] Deriving master key took 66ms
+[2026-08-21 17:35:55.699] [info]  Retrieving application id
+[2026-08-21 17:35:58.023] [error] {
+  response: {
+    error: 'invalid_grant',
+    error_description: 'invalid_username_or_password',
+    ErrorModel: {
+      Object: 'error',
+      Message: 'Username or password is incorrect. Try again.'
+    }
+  },
+  message: 'Username or password is incorrect. Try again.',
+  statusCode: 400
+}
+[2026-08-21 17:36:13.851] [info]  Retrieving application id
+[2026-08-21 17:36:15.889] [info]  Retrieving application id
+[2026-08-21 17:36:15.894] [info]  Retrieving application id
+[2026-08-21 17:36:34.187] [info]  Retrieving application id
+[2026-08-21 17:36:34.744] [info]  [KeyService] Deriving master key took 411ms
+[2026-08-21 17:36:34.748] [info]  Retrieving application id
+[2026-08-21 17:36:37.061] [error] {
+  response: {
+    error: 'invalid_grant',
+    error_description: 'invalid_username_or_password',
+    ErrorModel: {
+      Object: 'error',
+      Message: 'Username or password is incorrect. Try again.'
+    }
+  },
+  message: 'Username or password is incorrect. Try again.',
+  statusCode: 400
+}
+[2026-08-21 17:36:47.997] [info]  Retrieving application id
+[2026-08-21 17:36:48.487] [info]  [KeyService] Deriving master key took 410ms
+[2026-08-21 17:36:48.491] [info]  Retrieving application id
+[2026-08-21 17:37:11.683] [info]  Active account changed, clearing SSH keys
+[2026-08-21 17:37:11.689] [error] Failed to clear SSH keys Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:37:11.704] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.705] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.708] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.709] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.710] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.710] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 17:37:11.713] [info]  Using SignalR for server notifications
+[2026-08-21 17:37:11.713] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.715] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.715] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_refreshToken
+[2026-08-21 17:37:11.716] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.716] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.716] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 17:37:11.718] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.718] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.734] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.734] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.736] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.737] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.737] [error] [Credential Storage Listener] deletePassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.743] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.743] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.747] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.748] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.882] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.eu/hub?access_token=[REDACTED]
+[2026-08-21 17:37:11.882] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 17:37:11.907] [info]  Active account changed, clearing SSH keys
+[2026-08-21 17:37:11.911] [error] Failed to clear SSH keys Error: Error invoking remote method 'sshagent.clearkeys': Error: No handler registered for 'sshagent.clearkeys'
+[2026-08-21 17:37:11.921] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.921] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.948] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.949] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.971] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.972] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:11.987] [info]  [EncryptedMigrationsScheduler] No migrations needed for user fc791543-416a-45e4-ac33-b3f5014fdd42
+[2026-08-21 17:37:11.988] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:37:11.989] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:37:12.006] [info]  [SearchService]: index complete took 11.599999999860302 [ [ 'Items', 0 ] ]
+[2026-08-21 17:40:38.664] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.665] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.666] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.667] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.803] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.804] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.887] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.888] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.890] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.891] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.891] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.892] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 17:40:38.895] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.896] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_refreshToken
+[2026-08-21 17:40:38.897] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.897] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 17:40:38.898] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.899] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:38.900] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:38.900] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:39.099] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:39.100] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:39.119] [info]  [CipherService]: decrypt complete took 4.800000000046566 [ [ 'Items', 12 ] ]
+[2026-08-21 17:40:39.150] [info]  [SearchService]: index complete took 29.399999999906868 [ [ 'Items', 12 ] ]
+[2026-08-21 17:40:39.158] [info]  [EncryptedMigrationsScheduler] No migrations needed for user fc791543-416a-45e4-ac33-b3f5014fdd42
+[2026-08-21 17:40:43.605] [info]  Retrieving application id
+[2026-08-21 17:40:43.607] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:43.608] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:43.609] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:40:43.610] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:40:43.674] [info]  [EncryptedMigrationsScheduler] No migrations needed for user fc791543-416a-45e4-ac33-b3f5014fdd42
+[2026-08-21 17:44:11.843] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:44:11.843] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:44:11.845] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:44:11.846] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:44:11.957] [info]  [CipherService]: decrypt complete took 2.2000000001862645 [ [ 'Items', 13 ] ]
+[2026-08-21 17:44:12.008] [info]  [SearchService]: index complete took 27.5 [ [ 'Items', 13 ] ]
+[2026-08-21 17:44:15.436] [info]  Retrieving application id
+[2026-08-21 17:45:08.151] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:45:08.152] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:45:08.152] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:45:08.152] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:45:08.153] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:45:08.153] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 17:45:08.154] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 17:45:08.154] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:00:23.675] [info]  Using SignalR for server notifications
+[2026-08-21 18:00:23.676] [info]  [SignalR] Connection disconnected.
+[2026-08-21 18:00:23.677] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:00:23.678] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:00:23.679] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:00:23.680] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:00:23.791] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.eu/hub?access_token=[REDACTED]
+[2026-08-21 18:00:23.791] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 18:00:36.440] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:00:36.441] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:00:36.442] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:00:36.443] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:00:36.658] [info]  [EncryptedMigrationsScheduler] No migrations needed for user fc791543-416a-45e4-ac33-b3f5014fdd42
+[2026-08-21 18:00:36.663] [info]  [CipherService]: decrypt complete took 17 [ [ 'Items', 13 ] ]
+[2026-08-21 18:00:36.686] [info]  [SearchService]: index complete took 21 [ [ 'Items', 13 ] ]
+[2026-08-21 18:00:38.136] [info]  Retrieving application id
+[2026-08-21 18:03:06.131] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.135] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.140] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.140] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.143] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.143] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.144] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.145] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.145] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.153] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.155] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.159] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.160] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.163] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.164] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.168] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.170] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.171] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.172] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.175] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.177] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.178] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.179] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.182] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.185] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.187] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.201] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:06.429] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:09.566] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:09.566] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:09.568] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:10.507] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:10.509] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:10.592] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:11.109] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:11.111] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:11.211] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.900] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.900] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.901] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.907] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.907] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.909] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.911] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.912] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.915] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.917] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.918] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:12.919] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:14.418] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:14.419] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:14.420] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.421] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.421] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.475] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.478] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.479] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.485] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.486] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.487] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.489] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.490] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.493] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.493] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:15.494] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.692] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.696] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.697] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.703] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.704] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.705] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.706] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.709] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.710] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:19.711] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.215] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.218] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.219] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.220] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.221] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.223] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.226] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.227] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.228] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.417] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.418] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:24.419] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:25.420] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:25.420] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:30.808] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:30.809] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.364] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.780] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.781] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.782] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.878] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.883] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.886] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.887] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.888] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:33.978] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:34.163] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:34.418] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:34.418] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:34.419] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:34.549] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:34.562] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:35.420] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:35.420] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:40.122] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:40.122] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:40.266] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:40.281] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.917] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.925] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.927] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.934] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.934] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.937] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.938] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.938] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.939] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.939] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.942] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.943] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.944] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.944] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.945] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.948] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.948] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.948] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.949] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.949] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.951] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.952] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.962] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:47.989] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:48.230] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:51.380] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:51.913] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:51.915] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:52.715] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:52.813] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:54.300] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:03:54.301] [error] Unhandled error in angular Error: t.startIcon is not a function
+[2026-08-21 18:04:02.871] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:04:02.872] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:04:02.873] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:04:02.874] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:04:02.965] [info]  [CipherService]: decrypt complete took 1.900000000372529 [ [ 'Items', 13 ] ]
+[2026-08-21 18:04:02.998] [info]  [SearchService]: index complete took 15.100000000093132 [ [ 'Items', 13 ] ]
+[2026-08-21 18:04:04.725] [info]  Retrieving application id
+[2026-08-21 18:06:12.330] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:06:12.331] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:06:12.332] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:06:12.333] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:06:12.456] [info]  [CipherService]: decrypt complete took 1.7000000001862645 [ [ 'Items', 13 ] ]
+[2026-08-21 18:06:12.491] [info]  [SearchService]: index complete took 19.799999999813735 [ [ 'Items', 13 ] ]
+[2026-08-21 18:06:15.702] [info]  Retrieving application id
+[2026-08-21 18:06:19.522] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:06:19.523] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:06:19.524] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:06:19.524] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:06:19.615] [info]  [CipherService]: decrypt complete took 1.6999999997206032 [ [ 'Items', 14 ] ]
+[2026-08-21 18:06:19.651] [info]  [SearchService]: index complete took 19.600000000093132 [ [ 'Items', 14 ] ]
+[2026-08-21 18:06:21.022] [info]  Retrieving application id
+[2026-08-21 18:11:51.102] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:11:51.102] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:11:51.104] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:11:51.105] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:11:51.198] [info]  [CipherService]: decrypt complete took 2.1000000000931323 [ [ 'Items', 14 ] ]
+[2026-08-21 18:11:51.227] [info]  [SearchService]: index complete took 14.199999999720603 [ [ 'Items', 14 ] ]
+[2026-08-21 18:11:53.212] [info]  Retrieving application id
+[2026-08-21 18:12:44.524] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:12:44.525] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:12:44.526] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:12:44.527] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:12:44.653] [info]  [EncryptedMigrationsScheduler] No migrations needed for user fc791543-416a-45e4-ac33-b3f5014fdd42
+[2026-08-21 18:12:44.658] [info]  [CipherService]: decrypt complete took 15 [ [ 'Items', 14 ] ]
+[2026-08-21 18:12:44.665] [info]  [SearchService]: index complete took 5.899999999906868 [ [ 'Items', 14 ] ]
+[2026-08-21 18:12:48.586] [info]  Retrieving application id
+[2026-08-21 18:12:55.232] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:12:55.233] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:12:55.234] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:12:55.235] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:12:55.327] [info]  [CipherService]: decrypt complete took 1.7999999998137355 [ [ 'Items', 14 ] ]
+[2026-08-21 18:12:55.357] [info]  [SearchService]: index complete took 16.100000000093132 [ [ 'Items', 14 ] ]
+[2026-08-21 18:12:58.708] [info]  Retrieving application id
+[2026-08-21 18:13:12.258] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.259] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.260] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.261] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.357] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.358] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.362] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.363] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.432] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.433] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.630] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.631] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.633] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.633] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.634] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.634] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 18:13:12.640] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.641] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_refreshToken
+[2026-08-21 18:13:12.641] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.642] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 18:13:12.643] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.644] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.644] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.645] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.856] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:12.857] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:12.880] [info]  [CipherService]: decrypt complete took 7.2000000001862645 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:12.899] [info]  [SearchService]: index complete took 16.299999999813735 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:13.949] [info]  Retrieving application id
+[2026-08-21 18:13:35.005] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:35.006] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:35.007] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:35.008] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:35.118] [info]  [CipherService]: decrypt complete took 1.5 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:35.159] [info]  [SearchService]: index complete took 23.200000000186265 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:39.574] [info]  Retrieving application id
+[2026-08-21 18:13:39.809] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:39.810] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:39.811] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:39.812] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:39.908] [info]  [CipherService]: decrypt complete took 1.5 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:39.937] [info]  [SearchService]: index complete took 15.300000000279397 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:44.043] [info]  Retrieving application id
+[2026-08-21 18:13:57.164] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:57.165] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:57.166] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:13:57.166] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:13:57.275] [info]  [CipherService]: decrypt complete took 1.3999999999068677 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:57.298] [info]  [SearchService]: index complete took 12.199999999720603 [ [ 'Items', 14 ] ]
+[2026-08-21 18:13:59.322] [info]  Retrieving application id
+[2026-08-21 18:14:12.559] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.560] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.561] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.561] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.701] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.701] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.705] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.705] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.771] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.772] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.861] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.861] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.863] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.864] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.865] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.865] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2026-08-21 18:14:12.870] [error] [Credential Storage Listener] setPassword failed Error: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.871] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_refreshToken
+[2026-08-21 18:14:12.872] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.873] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2026-08-21 18:14:12.874] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.875] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:12.876] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:12.876] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:13.069] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:13.070] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:13.096] [info]  [CipherService]: decrypt complete took 8.299999999813735 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:13.114] [info]  [SearchService]: index complete took 16.600000000093132 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:14.471] [info]  Retrieving application id
+[2026-08-21 18:14:17.288] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:17.288] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:17.290] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:17.291] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:17.394] [info]  [CipherService]: decrypt complete took 1.3999999999068677 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:17.434] [info]  [SearchService]: index complete took 27.199999999720603 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:19.435] [info]  Retrieving application id
+[2026-08-21 18:14:23.560] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:23.561] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:23.562] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:23.563] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:23.659] [info]  [CipherService]: decrypt complete took 1.3999999999068677 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:23.685] [info]  [SearchService]: index complete took 13.600000000093132 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:24.545] [info]  Retrieving application id
+[2026-08-21 18:14:28.411] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:28.412] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:28.414] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:28.415] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:28.549] [info]  [CipherService]: decrypt complete took 1.5 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:28.576] [info]  [SearchService]: index complete took 15.300000000279397 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:29.737] [info]  Retrieving application id
+[2026-08-21 18:14:36.073] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:36.074] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:36.075] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:14:36.076] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:14:36.181] [info]  [CipherService]: decrypt complete took 1.3999999999068677 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:36.208] [info]  [SearchService]: index complete took 15.300000000279397 [ [ 'Items', 14 ] ]
+[2026-08-21 18:14:39.594] [info]  Retrieving application id
+[2026-08-21 18:16:31.252] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:16:31.253] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:16:31.254] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:16:31.255] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:16:31.346] [info]  [CipherService]: decrypt complete took 1.3999999999068677 [ [ 'Items', 15 ] ]
+[2026-08-21 18:16:31.371] [info]  [SearchService]: index complete took 12.100000000093132 [ [ 'Items', 15 ] ]
+[2026-08-21 18:16:35.459] [info]  Retrieving application id
+[2026-08-21 18:35:16.442] [info]  Using SignalR for server notifications
+[2026-08-21 18:35:16.443] [info]  [SignalR] Connection disconnected.
+[2026-08-21 18:35:16.444] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:35:16.445] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:35:16.446] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 18:35:16.447] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 18:35:16.806] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.eu/hub?access_token=[REDACTED]
+[2026-08-21 18:35:16.806] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2026-08-21 22:31:27.490] [info]  Using SignalR for server notifications
+[2026-08-21 22:31:27.491] [info]  [SignalR] Connection disconnected.
+[2026-08-21 22:31:27.492] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 22:31:27.493] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 22:31:27.494] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 22:31:27.494] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
+[2026-08-21 22:31:27.496] [info]  [NAPI] [INFO] desktop_core::password::password: falling back to get legacy Bitwarden fc791543-416a-45e4-ac33-b3f5014fdd42_accessTokenKey
+[2026-08-21 22:31:27.497] [error] [Credential Storage Listener] getPassword failed Error: service error org.freedesktop.zbus.Error: The name is not activatable
